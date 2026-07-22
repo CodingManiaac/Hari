@@ -129,7 +129,8 @@ export default function Chapter12View() {
     setSelectedTreasure(item);
     
     // Add to collected state list
-    const updated = new Set([...collected, item.id]);
+    const updated = new Set(collected);
+    updated.add(item.id);
     setCollected(updated);
 
     if (updated.size === 10) {

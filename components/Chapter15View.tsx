@@ -74,7 +74,11 @@ export default function Chapter15View() {
   }, [selectedVideo]);
 
   const handleThumbError = (filename: string) => {
-    setThumbErrors((prev) => new Set([...prev, filename]));
+    setThumbErrors((prev) => {
+      const next = new Set(prev);
+      next.add(filename);
+      return next;
+    });
   };
 
   const handleVideoEnded = () => {

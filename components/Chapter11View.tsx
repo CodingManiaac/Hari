@@ -205,7 +205,11 @@ export default function Chapter11View() {
   const handleLeafClick = (wish: Wish, idx: number) => {
     setSelectedWish(wish);
     setSelectedIdx(idx);
-    setOpenedWishes((prev) => new Set([...prev, idx]));
+    setOpenedWishes((prev) => {
+      const next = new Set(prev);
+      next.add(idx);
+      return next;
+    });
 
     if (idx === 9) {
       // 10th Leaf - Promise Special Flow

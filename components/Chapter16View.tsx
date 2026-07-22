@@ -33,7 +33,11 @@ export default function Chapter16View() {
   ];
 
   const handleImageError = (filename: string) => {
-    setImageErrors((prev) => new Set([...prev, filename]));
+    setImageErrors((prev) => {
+      const next = new Set(prev);
+      next.add(filename);
+      return next;
+    });
   };
 
   return (
