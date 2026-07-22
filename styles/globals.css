@@ -1,0 +1,503 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 350 100% 98.5%; /* Soft pastel cherry blossom pink */
+    --foreground: 340 60% 15%; /* Deep dark rose red for high-contrast reading */
+    --card: 0 0% 100%; /* Pure white page base */
+    --card-foreground: 340 60% 15%;
+    --popover: 350 100% 98.5%;
+    --popover-foreground: 340 60% 15%;
+    --primary: 343 100% 70%; /* Soft Rose Pink */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 270 70% 85%; /* Lavender */
+    --secondary-foreground: 340 60% 15%;
+    --muted: 350 30% 95%;
+    --muted-foreground: 340 20% 45%;
+    --accent: 350 100% 88%; /* Baby Pink / Peach */
+    --accent-foreground: 340 60% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 343 100% 92%; /* Pink border */
+    --input: 343 100% 92%;
+    --ring: 343 100% 70%;
+  }
+}
+
+@layer utilities {
+  .glassmorphism-pink {
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1.5px solid rgba(244, 63, 94, 0.12); /* Soft rose-pink borders */
+    box-shadow: 0 8px 32px 0 rgba(244, 63, 94, 0.05); /* Soft pink shadow */
+  }
+
+  .glassmorphism-pink-light {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  /* Paper / Scrapbook Page effect */
+  .scrapbook-page {
+    background-color: #ffffff;
+    background-image: radial-gradient(#fecdd3 1px, transparent 1px);
+    background-size: 20px 20px;
+    border: 1px solid #fecdd3;
+    box-shadow: 0 10px 25px -5px rgba(244, 63, 94, 0.1), 0 8px 10px -6px rgba(244, 63, 94, 0.05);
+  }
+
+  /* Washi Tape Effect */
+  .washi-tape {
+    background: rgba(253, 164, 186, 0.5);
+    backdrop-filter: blur(2px);
+    border-left: 2px dashed rgba(244, 63, 94, 0.2);
+    border-right: 2px dashed rgba(244, 63, 94, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transform: rotate(-2deg);
+  }
+
+  .text-glow-rose {
+    text-shadow: 0 0 10px rgba(244, 63, 94, 0.2), 0 0 20px rgba(251, 113, 133, 0.1);
+  }
+
+  .border-glow-pink {
+    box-shadow: 0 0 15px rgba(244, 63, 94, 0.1);
+    border-color: rgba(244, 63, 94, 0.25);
+  }
+}
+
+html,
+body {
+  background: linear-gradient(135deg, #FFF5F7 0%, #FFF0F5 50%, #F5F3FF 100%);
+  background-attachment: fixed;
+  color: #4c0519;
+  overflow-x: hidden;
+  font-family: var(--font-sans), sans-serif;
+  scroll-behavior: auto !important;
+}
+
+/* Custom scrollbar for premium aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(244, 63, 94, 0.25);
+  border-radius: 3px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(244, 63, 94, 0.5);
+}
+
+/* Lenis smooth scrolling helper styles */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overflow: clip;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Custom CSS cursor trail particles */
+@keyframes trail-fade-up {
+  0% {
+    opacity: 0.9;
+    transform: translateY(0px) scale(1) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-40px) scale(0.3) rotate(var(--trail-rotate, 15deg));
+  }
+}
+
+.animate-trail {
+  animation: trail-fade-up 0.8s ease-out forwards;
+}
+
+/* Custom CSS loops to replace Framer Motion frame-loop keyframes */
+@keyframes glow-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 10s ease-in-out infinite;
+}
+
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-gentle-float {
+  animation: gentle-float 6s ease-in-out infinite;
+}
+
+@keyframes carousel-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-carousel-float {
+  animation: carousel-float 5s ease-in-out infinite;
+}
+
+@keyframes gentle-zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.08);
+  }
+}
+
+.animate-gentle-zoom {
+  animation: gentle-zoom 16s ease-out forwards;
+}
+
+@keyframes cinematic-wipe {
+  0% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+  45%, 55% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  56% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+}
+
+.animate-wipe {
+  animation: cinematic-wipe 1.4s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
+
+@keyframes petal-glow {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  30%, 70% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+.animate-petal {
+  animation: petal-glow 1.4s ease-in-out forwards;
+}
+
+@keyframes slide-in-toast {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-toast {
+  animation: slide-in-toast 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fade-in-backdrop {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-backdrop {
+  animation: fade-in-backdrop 0.3s ease-out forwards;
+}
+
+@keyframes slide-up-modal {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-modal-sheet {
+  animation: slide-up-modal 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes polaroid-drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px) scale(0.9) rotate(-6deg);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(15px) scale(1.02) rotate(3deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(-1.5deg);
+  }
+}
+
+.animate-polaroid-drop {
+  animation: polaroid-drop 1.4s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+@keyframes tape-reveal {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -10px) scale(0.8);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+.animate-tape-reveal {
+  opacity: 0;
+  animation: tape-reveal 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 1.2s forwards;
+}
+
+@keyframes sticker-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  70% {
+    transform: scale(1.2) rotate(var(--sticker-rot-hover, 10deg));
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(var(--sticker-rot, 5deg));
+  }
+}
+
+.animate-sticker-pop {
+  opacity: 0;
+  animation: sticker-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes portrait-zoom {
+  0% {
+    opacity: 0;
+    transform: scale(1.02);
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+}
+
+.animate-portrait-zoom {
+  animation: portrait-zoom 12s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes line-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-line {
+  opacity: 0;
+  animation: line-slide-up 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+@keyframes pulse-heart-glow {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 2px rgba(244, 63, 94, 0.4));
+  }
+  50% {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px rgba(244, 63, 94, 0.8));
+  }
+}
+
+.animate-pulse-heart {
+  animation: pulse-heart-glow 2s ease-in-out infinite;
+}
+
+@keyframes letter-float {
+  0%, 100% {
+    transform: translateY(0) rotate(var(--rot, 0deg));
+  }
+  50% {
+    transform: translateY(-8px) rotate(calc(var(--rot, 0deg) + 2deg));
+  }
+}
+
+.animate-letter-float {
+  animation: letter-float 4s ease-in-out infinite;
+}
+
+@keyframes envelope-open-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-envelope-open {
+  animation: envelope-open-slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes quiz-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px) rotate(-1deg); }
+  40%, 80% { transform: translateX(6px) rotate(1deg); }
+}
+
+.animate-shake {
+  animation: quiz-shake 0.4s ease-in-out;
+}
+
+@keyframes card-float-up {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-card-float {
+  animation: card-float-up 4.5s ease-in-out infinite;
+}
+
+@keyframes leaf-pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 4px rgba(16, 185, 129, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(16, 185, 129, 0.8);
+    transform: scale(1.05);
+  }
+}
+
+.animate-leaf-glow {
+  animation: leaf-pulse-glow 2.5s ease-in-out infinite;
+}
+
+@keyframes tree-sway-anim {
+  0%, 100% {
+    transform: rotate(0deg) skewX(0deg);
+  }
+  50% {
+    transform: rotate(0.5deg) skewX(0.5deg);
+  }
+}
+
+.animate-tree-sway {
+  animation: tree-sway-anim 6s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes item-wiggle {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(-6deg) scale(1.08);
+  }
+  75% {
+    transform: rotate(6deg) scale(1.08);
+  }
+}
+
+.hover-wiggle:hover {
+  animation: item-wiggle 0.5s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+@keyframes vinyl-pop-out {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(var(--vinyl-x, 0), var(--vinyl-y, -25px), 0) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-vinyl-pop {
+  animation: vinyl-pop-out 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

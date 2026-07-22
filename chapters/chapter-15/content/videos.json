@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "The Shy Superstar 🙈",
+    "caption": "I only wanted one good video of you... but you kept hiding your face from the camera every single second. That made it even cuter. Looking back now, it's one of those little moments that makes me smile every single time.",
+    "video": "video-01.mp4",
+    "thumbnail": "thumbnail-01.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Peace in One Frame 🧘‍♀️",
+    "caption": "Watching you quietly meditate felt strangely peaceful. For a few moments, everything around us seemed calm. I couldn't resist recording it because I wanted to remember that beautiful little moment forever.",
+    "video": "video-02.mp4",
+    "thumbnail": "thumbnail-02.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Our Oscar Audition 😂🎬",
+    "caption": "One of our funniest reels ever! Acting serious, delivering dramatic dialogues, and laughing the moment the recording stopped. We definitely weren't perfect actors... but we had the perfect time making it.",
+    "video": "video-03.mp4",
+    "thumbnail": "thumbnail-03.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Someone Give Her an Oscar! 🏆🤣",
+    "caption": "This reel still makes me laugh. The expressions, the timing, the confidence... everything was hilarious. If there were Oscars for making your brother laugh, you would've won without competition.",
+    "video": "video-04.mp4",
+    "thumbnail": "thumbnail-04.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Partners in Comedy 🎭❤️",
+    "caption": "Sometimes all we need is a funny song, a phone camera, and absolutely zero seriousness. This reel perfectly captures our silly side and reminds me that some of the happiest memories are created when we're simply being ourselves.",
+    "video": "video-05.mp4",
+    "thumbnail": "thumbnail-05.jpeg"
+  }
+]
