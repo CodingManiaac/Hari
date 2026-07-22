@@ -42,7 +42,7 @@ function FinalGratitudeEffectsCanvas() {
 
     const spawnParticle = (isInitial = false) => {
       const rand = Math.random();
-      const type = rand < 0.35 ? "heart" : rand < 0.7 ? "petal" : "sparkle";
+      const type = (rand < 0.35 ? "heart" : rand < 0.7 ? "petal" : "sparkle") as "heart" | "petal" | "sparkle";
       return {
         x: Math.random() * width,
         y: type === "petal" ? (isInitial ? Math.random() * height : -20) : (isInitial ? Math.random() * height : height + 20),

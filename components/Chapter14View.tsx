@@ -39,7 +39,7 @@ function ReasonCanvas() {
     }> = [];
 
     const spawnParticle = (isInitial = false) => {
-      const type = Math.random() > 0.55 ? "heart" : "sparkle";
+      const type = (Math.random() > 0.55 ? "heart" : "sparkle") as "heart" | "sparkle";
       return {
         x: Math.random() * width,
         y: isInitial ? Math.random() * height : height + 20,

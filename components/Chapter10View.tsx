@@ -41,7 +41,7 @@ function SparkleHeartsCanvas() {
     }> = [];
 
     const spawnParticle = (isInitial = false) => {
-      const type = Math.random() > 0.5 ? "heart" : "sparkle";
+      const type = (Math.random() > 0.5 ? "heart" : "sparkle") as "heart" | "sparkle";
       return {
         x: Math.random() * width,
         y: isInitial ? Math.random() * height : height + 20,
