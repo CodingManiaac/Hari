@@ -56,8 +56,7 @@ export default function FloatingImages({ images = [] }: FloatingImagesProps) {
             key={i}
             style={{
               x: mouseOffset.x * (img.speed / 10),
-              y: mouseOffset.y * (img.speed / 10),
-              yStyle: yOffset,
+              y: yOffset,
               rotate: img.rotation || 0,
             }}
             className={`absolute ${img.x} ${img.y} ${img.size} rounded-lg border border-white/10 glassmorphism-light p-2 flex items-center justify-center`}
