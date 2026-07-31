@@ -164,7 +164,11 @@ export default function Chapter17View() {
 
   const handleStarClick = (star: StarNode, idx: number) => {
     setSelectedStar(star);
-    setOpenedStars((prev) => new Set([...prev, star.id]));
+    setOpenedStars((prev) => {
+      const next = new Set(prev);
+      next.add(star.id);
+      return next;
+    });
 
     // If she clicked the latest unlocked star, unlock the next star in sequence
     if (idx === unlockedCount - 1) {
