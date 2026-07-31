@@ -46,6 +46,7 @@ export default function PhotoGallery({ items = [] }: PhotoGalleryProps) {
           >
             <Polaroid
               src={item.src || ""}
+              alt={item.caption}
               caption={item.caption}
               rotation={item.rotation || 0}
             />
