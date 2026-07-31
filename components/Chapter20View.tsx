@@ -462,7 +462,7 @@ export default function Chapter20View() {
                     🎂 Happy Birthday Haripriya ❤️
                   </h1>
                   <p className="text-sm md:text-lg text-pink-200/90 font-display italic font-semibold max-w-xl mx-auto">
-                    &ldquo;The best gift I could ever give you isn't something I could buy... It's the memories we've created together.&rdquo;
+                    &ldquo;The best gift I could ever give you isn&apos;t something I could buy... It&apos;s the memories we&apos;ve created together.&rdquo;
                   </p>
                 </div>
 
@@ -503,7 +503,7 @@ export default function Chapter20View() {
 
                 {/* Final message text */}
                 <p className="text-xs md:text-sm text-neutral-300/90 leading-relaxed font-sans max-w-md mx-auto font-medium">
-                  No matter where life takes us... you'll always be my favourite sister, my biggest supporter, and one of the greatest blessings in my life.
+                  No matter where life takes us... you&apos;ll always be my favourite sister, my biggest supporter, and one of the greatest blessings in my life.
                 </p>
 
                 {/* Replay controller button */}
