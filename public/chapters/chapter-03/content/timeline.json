@@ -1,0 +1,50 @@
+[
+  {
+    "year": "2007",
+    "age": "0",
+    "title": "The Arrival of the Princess 🍼",
+    "description": "The day our lives changed forever. A tiny bundle of joy arrived, bringing endless smiles and a new definition of love.",
+    "image": "baby.jpeg",
+    "location": "Home"
+  },
+  {
+    "year": "2012",
+    "age": "5",
+    "title": "First Day of School 🎒",
+    "description": "Pigtails, an oversized school bag, and a few tears. You stepped into the big world, holding my finger tight.",
+    "image": "childhood.jpeg",
+    "location": "Primary School"
+  },
+  {
+    "year": "2018",
+    "age": "11",
+    "title": "The Mischievous Partner 🤫",
+    "description": "From stealing chocolates to covering up each other's secrets. Our bond became unbreakable.",
+    "image": "school.jpeg",
+    "location": "Home"
+  },
+  {
+    "year": "2022",
+    "age": "15",
+    "title": "Growing into a Leader 🌟",
+    "description": "Entering high school, discovering new talents, and making us proud with your academic and creative feats.",
+    "image": "teen.jpeg",
+    "location": "High School"
+  },
+  {
+    "year": "2025",
+    "age": "18",
+    "title": "Stepping into Adulthood 🎓",
+    "description": "Graduating school, standing tall, and ready to chase big dreams. The world is yours to conquer!",
+    "image": "recent.jpeg",
+    "location": "College Campus"
+  },
+  {
+    "year": "Today",
+    "age": "19",
+    "title": "My Best Friend Forever ❤️",
+    "description": "No matter how big you get, you'll always be my little sister, my guide, and my constant source of happiness.",
+    "image": "family.jpeg",
+    "location": "Everywhere"
+  }
+]

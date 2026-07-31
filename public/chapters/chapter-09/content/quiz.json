@@ -1,0 +1,63 @@
+[
+  {
+    "question": "Which actor can I never stop talking about?",
+    "options": ["Allu Arjun", "Mahesh Babu", "Prabhas", "Nani"],
+    "correctAnswer": "Prabhas",
+    "wrongResponse": "Ayyoo! You know me better than this 😂",
+    "celebrationMessage": "Exactly! Rebel Star forever! ❤️"
+  },
+  {
+    "question": "When we fight, who usually speaks first?",
+    "options": ["Me", "You", "Mom", "Nobody"],
+    "correctAnswer": "You",
+    "wrongResponse": "Think again... someone always melts first 🤭",
+    "celebrationMessage": "Correct! You're usually the peacemaker. 💕"
+  },
+  {
+    "question": "Which place gave us one of the funniest racing memories?",
+    "options": ["Zoo", "Temple", "Asian Mall", "Home"],
+    "correctAnswer": "Asian Mall",
+    "wrongResponse": "Nope 😂 We didn't race there!",
+    "celebrationMessage": "Yes! Our legendary go-kart battle! 🏎️"
+  },
+  {
+    "question": "Which memory is my favourite from our childhood?",
+    "options": [
+      "Zoo Trip",
+      "Our First Childhood Picture",
+      "Bathukamma",
+      "Temple Selfie"
+    ],
+    "correctAnswer": "Our First Childhood Picture",
+    "wrongResponse": "Close... but there's one memory that's extra special. ❤️",
+    "celebrationMessage": "Exactly! That picture means the world to me. 🥹"
+  },
+  {
+    "question": "When my hand was fractured, who took care of me the most?",
+    "options": ["Dad", "Mom", "You", "Everyone Equally"],
+    "correctAnswer": "You",
+    "wrongResponse": "Nope ❤️ The answer is standing in front of the mirror.",
+    "celebrationMessage": "Yes... and I'll never forget that. 🥹"
+  },
+  {
+    "question": "What do I call you the most?",
+    "options": ["Hari", "Akka", "Pottidhana", "Haripriya"],
+    "correctAnswer": "Pottidhana",
+    "wrongResponse": "😂 Impossible! I say it almost every day!",
+    "celebrationMessage": "Correct! Pottidhana forever 🤣❤️"
+  },
+  {
+    "question": "Which festival gave us one of our favourite family memories?",
+    "options": ["Sankranti", "Diwali", "Bathukamma", "Ugadi"],
+    "correctAnswer": "Bathukamma",
+    "wrongResponse": "Think about all those colourful flowers 🌸",
+    "celebrationMessage": "Yes! Bathukamma memories are unforgettable. 🌸"
+  },
+  {
+    "question": "If I had to describe you in one word, which would I choose?",
+    "options": ["Stubborn", "Caring", "Silent", "Serious"],
+    "correctAnswer": "Caring",
+    "wrongResponse": "Nope ❤️ You already know this one.",
+    "celebrationMessage": "Exactly! That's who you've always been to me. 🥹"
+  }
+]

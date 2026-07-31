@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "placeName": "Bathukamma Grounds 🌸",
+    "description": "This photo may be a little blurry, but the memory is crystal clear. Watching you stand beside Mom, both of you holding your own Bathukammas with such happiness, is one of those beautiful festival moments I'll always treasure. Sometimes the most precious memories aren't the sharpest pictures—they're the ones filled with the warmest feelings.",
+    "image": "memory-01.jpeg",
+    "emoji": "🌸",
+    "displayOrder": 1
+  },
+  {
+    "id": 2,
+    "placeName": "Zoo Adventure 🐆",
+    "description": "Standing in front of the jaguar enclosure, we captured a photo that instantly became one of my favourites. It wasn't just about visiting the zoo—it was about spending a wonderful day together, laughing, exploring, and creating a memory that still brings a smile to my face.",
+    "image": "memory-02.jpeg",
+    "emoji": "🐆",
+    "displayOrder": 2
+  },
+  {
+    "id": 3,
+    "placeName": "Diwali Lights 🪔",
+    "description": "There weren't many lights around us that evening, yet the tiny diyas you were lighting somehow made your face shine brighter than everything else. That warm glow, your peaceful smile, and the festive atmosphere created one of the most beautiful Diwali memories I'll ever have.",
+    "image": "memory-03.jpeg",
+    "emoji": "🪔",
+    "displayOrder": 3
+  },
+  {
+    "id": 4,
+    "placeName": "Our Happy Little Park 🌿",
+    "description": "The picture might be a little pixelated, but the memory is perfect. After playing together, you simply lay down on the green grass with the happiest smile. It was such a small moment, yet somehow it became one of my favourite pictures because it captured pure happiness.",
+    "image": "memory-04.jpeg",
+    "emoji": "🌿",
+    "displayOrder": 4
+  },
+  {
+    "id": 5,
+    "placeName": "A Birthday to Remember 🎂",
+    "description": "This birthday picture takes me back six or seven years, to a time when everything felt so simple. Looking at it now reminds me how quickly we've both grown, but one thing has never changed—seeing you happy on your birthday has always been one of my favourite moments.",
+    "image": "memory-05.jpeg",
+    "emoji": "🎂",
+    "displayOrder": 5
+  },
+  {
+    "id": 6,
+    "placeName": "Bhadrakali Temple 🙏",
+    "description": "Every visit to Bhadrakali Temple has given us more than just photographs. It has given us moments of peace, gratitude, and togetherness. Whenever I think of this place, I remember praying not just for myself, but for the happiness and well-being of our entire family.",
+    "image": "memory-06.jpeg",
+    "emoji": "🙏",
+    "displayOrder": 6
+  },
+  {
+    "id": 7,
+    "placeName": "Thousand Pillar Temple 🛕",
+    "description": "This has to be one of the funniest memories we've ever captured. While I sat there pretending to meditate with complete seriousness, you were happily posing for the camera with the cutest expression. That single picture perfectly describes us—me trying to be serious, and you making the moment unforgettable.",
+    "image": "memory-07.jpeg",
+    "emoji": "🛕",
+    "displayOrder": 7
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "A Wild Adventure Together 🐆",
+    "description": "One of our happiest outings together was our visit to the zoo. We stopped in front of the cheetah's cave and captured a beautiful picture that still brings a smile to my face. It wasn't just about seeing the animals—it was about spending quality time together, laughing, exploring, and creating a memory that I'll cherish forever.",
+    "image": "memory-01.jpeg",
+    "date": "October 2023",
+    "location": "Zoo",
+    "mood": "Happy"
+  },
+  {
+    "id": 2,
+    "title": "The Great Racing Battle 🏎️",
+    "description": "Our go-kart adventure at Asian Mall was full of laughter and excitement. We raced each other, playfully blocked each other's way, argued over who was faster, and laughed throughout the ride. In the end, all that mattered was the smile we walked away with. It was one of those moments where fun mattered more than winning.",
+    "image": "memory-02.jpeg",
+    "date": "December 2023",
+    "location": "Asian Mall",
+    "mood": "Funny"
+  },
+  {
+    "id": 3,
+    "title": "The New Volleyball 🏐",
+    "description": "The day I bought a brand-new volleyball became even more special because of your excitement. We played together in the park, and I captured the exact moment when you happily hit the volleyball. That tiny moment, filled with genuine joy and laughter, turned into one of my favourite memories of us.",
+    "image": "memory-03.jpeg",
+    "date": "March 2024",
+    "location": "Park",
+    "mood": "Cute"
+  },
+  {
+    "id": 4,
+    "title": "Bathukamma Celebrations 🌸",
+    "description": "One of the most colorful memories we share is celebrating Bathukamma together. We went to the ground with everyone, enjoyed the festive atmosphere, spent time with family and friends, and created memories that remind me of the beauty of our traditions and the happiness of celebrating together.",
+    "image": "memory-04.jpeg",
+    "date": "October 2024",
+    "location": "Bathukamma Grounds",
+    "mood": "Festival"
+  },
+  {
+    "id": 5,
+    "title": "Our Oscar-Worthy Chess Match ♟️😂",
+    "description": "For our school's Fit India activity, we had to submit a photo of ourselves playing a sport or game. We chose chess and acted as if we were deeply focused in an intense championship match. Even though it was just for the submission, we had so much fun pretending to be serious players. Looking back, it always makes me laugh.",
+    "image": "memory-05.jpeg",
+    "date": "November 2024",
+    "location": "School",
+    "mood": "Funny"
+  },
+  {
+    "id": 6,
+    "title": "Meditation vs Model Pose 🛕😂",
+    "description": "Our family trip to the Thousand Pillar Temple gave us one of the funniest pictures ever. While I was sitting seriously, pretending to meditate with complete focus, you were busy striking the cutest pose for the camera. The contrast between my 'spiritual mode' and your innocent smile still makes me laugh every time I see this photo.",
+    "image": "memory-06.jpeg",
+    "date": "January 2025",
+    "location": "Thousand Pillar Temple",
+    "mood": "Funny"
+  },
+  {
+    "id": 7,
+    "title": "The Beginning of Our Story 👶❤️",
+    "description": "This is my favourite picture of us. You were around four years old and I was about six. It is the earliest photo I clearly remember after we had grown up a little. Your tiny chubby cheeks, your innocent smile, and the happiness on our faces make this picture priceless. No matter how many years pass, this memory will always have a special place in my heart.",
+    "image": "memory-07.jpeg",
+    "date": "Circa 2011",
+    "location": "Home",
+    "mood": "Emotional"
+  },
+  {
+    "id": 8,
+    "title": "Temple Selfie Together 📸",
+    "description": "Sometimes the simplest moments become the most beautiful memories. This random selfie we took after visiting the temple is one of them. You were wearing a lovely pink dress, and I was in a dark pink outfit. Nothing extraordinary happened that day, but our smiles made the picture unforgettable.",
+    "image": "memory-08.jpeg",
+    "date": "April 2025",
+    "location": "Temple",
+    "mood": "Cute"
+  },
+  {
+    "id": 9,
+    "title": "Diwali Smiles ✨🪔",
+    "description": "This Diwali selfie perfectly captures our personalities. You flashed a cheerful victory sign while looking elegant in your red dress, and I couldn't resist making a childish expression in front of the camera. The lights, the festive atmosphere, and our silly smiles make this one of my favourite festival memories.",
+    "image": "memory-09.jpeg",
+    "date": "November 2025",
+    "location": "Home",
+    "mood": "Festival"
+  },
+  {
+    "id": 10,
+    "title": "Our First Selfie Together 📱❤️",
+    "description": "Long before I even had a proper moustache, and when you were just five or six years old, we took what I still think was one of our very first selfies after smartphones became common. Looking back now, we both look so innocent and adorable. It reminds me how quickly time flies, but also how our bond has only grown stronger with every passing year.",
+    "image": "memory-10.jpeg",
+    "date": "Circa 2013",
+    "location": "Home",
+    "mood": "Nostalgic"
+  }
+]

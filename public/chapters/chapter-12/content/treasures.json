@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "A Box Full of Gratitude 🎁",
+    "message": "Every gift eventually gets old, but your love and care for me never will. Thank you for being my biggest support through every phase of my life.",
+    "icon": "🎁",
+    "rewardType": "Heart Message"
+  },
+  {
+    "id": 2,
+    "title": "The Infinite Heart ❤️",
+    "message": "This heart represents something that has no end—my love and respect for you as my sister. No distance, no argument, and no time can ever change that.",
+    "icon": "❤️",
+    "rewardType": "Love Note"
+  },
+  {
+    "id": 3,
+    "title": "My Childhood Teddy 🧸",
+    "message": "Whenever I think about childhood, I don't just remember toys—I remember you. Every silly fight, every laugh, every memory made those years unforgettable.",
+    "icon": "🧸",
+    "rewardType": "Childhood Memory"
+  },
+  {
+    "id": 4,
+    "title": "Bloom Like a Flower 🌸",
+    "message": "No matter where life takes you, I hope you continue spreading kindness, happiness and positivity just like a flower spreads its fragrance.",
+    "icon": "🌸",
+    "rewardType": "Blessing"
+  },
+  {
+    "id": 5,
+    "title": "Butterfly Dreams 🦋",
+    "message": "May every dream you've ever had spread its wings and become reality. Never stop believing in yourself.",
+    "icon": "🦋",
+    "rewardType": "Dream"
+  },
+  {
+    "id": 6,
+    "title": "My Lucky Star ⭐",
+    "message": "If I ever feel lucky in life, it's because I was blessed with a sister like you. Thank you for making my world brighter.",
+    "icon": "⭐",
+    "rewardType": "Lucky Charm"
+  },
+  {
+    "id": 7,
+    "title": "Sweet Like Chocolate 🍫",
+    "message": "Life isn't always sweet, but your smile somehow makes difficult days feel a little lighter. Never stop smiling.",
+    "icon": "🍫",
+    "rewardType": "Sweet Memory"
+  },
+  {
+    "id": 8,
+    "title": "A Balloon Full of Wishes 🎈",
+    "message": "Imagine this balloon carrying every wish I've ever made for you—happiness, success, health, peace, and countless beautiful memories.",
+    "icon": "🎈",
+    "rewardType": "Wish"
+  },
+  {
+    "id": 9,
+    "title": "The Ribbon of Our Bond 🎀",
+    "message": "Some bonds don't need to be tied together—they already are. Ours is one of them, and I hope it remains just as beautiful forever.",
+    "icon": "🎀",
+    "rewardType": "Sibling Bond"
+  },
+  {
+    "id": 10,
+    "title": "One Last Picture 📸",
+    "message": "Photos freeze moments, but they can never capture how much those moments truly mean. Thank you for filling my life with memories worth remembering forever.",
+    "icon": "📸",
+    "rewardType": "Final Surprise"
+  }
+]

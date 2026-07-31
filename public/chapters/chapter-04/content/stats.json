@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Noodles Consumed",
+    "value": 4500,
+    "emoji": "🍜",
+    "description": "Platefuls of spicy noodles cleared with absolute expertise."
+  },
+  {
+    "title": "Prabhas Movies Watched",
+    "value": 120,
+    "emoji": "🎬",
+    "description": "Cheering for Rebel Star Prabhas first day, first show."
+  },
+  {
+    "title": "Drama Quotient",
+    "value": 100,
+    "emoji": "🎭",
+    "description": "Highly cinematic expressions, mostly triggered when she wants something."
+  },
+  {
+    "title": "Mischief Partner-in-Crime",
+    "value": 100,
+    "emoji": "🤫",
+    "description": "Secrets kept safe, chocolates stolen, and blame shared."
+  },
+  {
+    "title": "Eye Rolls at Bro",
+    "value": 10000,
+    "emoji": "🙄",
+    "description": "Expertly executed eye-rolls, usually when her brother tells a bad joke."
+  },
+  {
+    "title": "Hour-Long Sleep Sessions",
+    "value": 7200,
+    "emoji": "😴",
+    "description": "An absolute champion at sleeping through alarms and family calls."
+  }
+]
