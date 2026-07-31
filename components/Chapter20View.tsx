@@ -418,7 +418,7 @@ export default function Chapter20View() {
                     }}
                     className="absolute bottom-0 w-24 md:w-32 animate-floating-photo opacity-0 pointer-events-none"
                   >
-                    <Polaroid src={src} alt="Memory" rotate={i % 2 === 0 ? -5 : 5} />
+                    <Polaroid src={src} alt="Memory" rotation={i % 2 === 0 ? -5 : 5} />
                   </div>
                 ))}
               </div>

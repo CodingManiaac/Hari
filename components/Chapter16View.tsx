@@ -149,8 +149,7 @@ export default function Chapter16View() {
                   <Polaroid
                     src={`/api/assets/chapters/chapter-16/images/${selectedPlace.image}`}
                     alt={selectedPlace.placeName}
-                    title={selectedPlace.placeName}
-                    rotate={-2}
+                    rotation={-2}
                   />
                 </div>
 
