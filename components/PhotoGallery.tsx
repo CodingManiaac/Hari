@@ -45,7 +45,7 @@ export default function PhotoGallery({ items = [] }: PhotoGalleryProps) {
             className="transform transition-transform hover:scale-[1.02] cursor-pointer"
           >
             <Polaroid
-              imageSrc={item.src}
+              src={item.src}
               caption={item.caption}
               rotation={item.rotation || 0}
             />
